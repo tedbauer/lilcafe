@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/ted/lilcafe/src/main/scala/cafe/App.scala:39:9: not found: value chair[0m
-[0m[[0m[31merror[0m] [0m[0m        chair.src = "assets/chair.png"[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/ted/lilcafe/src/main/scala/cafe/App.scala:40:9: not found: value chair[0m
-[0m[[0m[31merror[0m] [0m[0m        chair.onload = (e: dom.Event) => {[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
