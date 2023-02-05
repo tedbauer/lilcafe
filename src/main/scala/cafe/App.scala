@@ -33,6 +33,13 @@ object App {
         background.onload = (e: dom.Event) => {
           canvasCtx.drawImage(background, 0, 0, 325, 225)
 
+          var dollar =
+            dom.document.createElement("img").asInstanceOf[dom.HTMLImageElement]
+          dollar.src = "assets/dollar_sign.png"
+          dollar.onload = (e: dom.Event) => {
+            canvasCtx.drawImage(dollar, 30, 40, 20, 20)
+          }
+
           var chair1 =
             dom.document.createElement("img").asInstanceOf[dom.HTMLImageElement]
           chair1.src = "assets/chair.png"
@@ -64,6 +71,8 @@ object App {
               canvasCtx.drawImage(coffee, 110, 100, 42, 42)
             }
 
+            canvasCtx.font = "15px serif";
+            canvasCtx.fillText("" + 0, 52, 55)
           }
         }
       }
