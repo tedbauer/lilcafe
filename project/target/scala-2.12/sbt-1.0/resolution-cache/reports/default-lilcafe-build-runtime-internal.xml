@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="lilcafe-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20230205143218"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927043542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/Users/ted/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="file:////Users/ted/.sbt/preloaded/org.scala-lang/scala-library/2.12.7/ivys/ivy.xml"/>
+				<caller organisation="org.scala-js" name="scalajs-logging_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.1.1"/>
+				<caller organisation="org.scala-js" name="scalajs-env-nodejs_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.4.0"/>
+				<caller organisation="org.scala-js" name="scalajs-ir_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.13.0"/>
+				<caller organisation="org.scala-js" name="scalajs-js-envs_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.4.0"/>
+				<caller organisation="org.scala-js" name="scalajs-linker-interface_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.13.0"/>
+				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="/Users/ted/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar">
+						<origin-location is-local="false" location="file:////Users/ted/.sbt/preloaded/org.scala-lang/scala-library/2.12.7/jars/scala-library.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="sbt-scalajs">
+			<revision name="1.13.0" status="release" pubdate="20230125050135" resolver="public" artresolver="public" homepage="https://www.scala-js.org/" extra-scalaVersion="2.12" extra-sbtVersion="1.0" extra-info.apiURL="http://www.scala-js.org/api/sbt-scalajs/1.13.0/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3572" time="220" location="/Users/ted/.ivy2/cache/scala_2.12/sbt_1.0/org.scala-js/sbt-scalajs/ivy-1.13.0.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/scala_2.12/sbt_1.0/org.scala-js/sbt-scalajs/ivy-1.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/sbt-scalajs_2.12_1.0/1.13.0/sbt-scalajs-1.13.0.pom"/>
+				<caller organisation="default" name="lilcafe-build" conf="compile, runtime-internal, runtime, optional" rev="1.13.0" rev-constraint-default="1.13.0" rev-constraint-dynamic="1.13.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-scalajs" type="jar" ext="jar" status="successful" details="" size="102301" time="215" location="/Users/ted/.ivy2/cache/scala_2.12/sbt_1.0/org.scala-js/sbt-scalajs/jars/sbt-scalajs-1.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/sbt-scalajs_2.12_1.0/1.13.0/sbt-scalajs-1.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-env-nodejs_2.12">
+			<revision name="1.4.0" status="release" pubdate="20220828102024" resolver="public" artresolver="public" homepage="https://github.com/scala-js/scala-js-js-envs" extra-info.apiURL="https://javadoc.io/doc/org.scala-js/scalajs-env-nodejs_2.12/1.4.0/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2980" time="115" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-env-nodejs_2.12/ivy-1.4.0.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-env-nodejs_2.12/ivy-1.4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.12/1.4.0/scalajs-env-nodejs_2.12-1.4.0.pom"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="default, compile, runtime, master" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="scalajs-env-nodejs_2.12" type="jar" ext="jar" status="successful" details="" size="40157" time="141" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-env-nodejs_2.12/jars/scalajs-env-nodejs_2.12-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.12/1.4.0/scalajs-env-nodejs_2.12-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.portable-scala" name="sbt-platform-deps">
+			<revision name="1.0.1" status="release" pubdate="20210630063709" resolver="public" artresolver="public" homepage="https://github.com/portable-scala/sbt-platform-deps" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD 3-Clause" url="https://github.com/portable-scala/sbt-platform-deps/blob/master/LICENSE"/>
+				<metadata-artifact status="successful" details="" size="2269" time="134" location="/Users/ted/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-platform-deps/ivy-1.0.1.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-platform-deps/ivy-1.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/portable-scala/sbt-platform-deps_2.12_1.0/1.0.1/sbt-platform-deps-1.0.1.pom"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="default, compile, runtime, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.13.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-platform-deps" type="jar" ext="jar" status="successful" details="" size="15038" time="183" location="/Users/ted/.ivy2/cache/scala_2.12/sbt_1.0/org.portable-scala/sbt-platform-deps/jars/sbt-platform-deps-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/portable-scala/sbt-platform-deps_2.12_1.0/1.0.1/sbt-platform-deps-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.12">
+			<revision name="1.13.0" status="release" pubdate="20230125045521" resolver="public" artresolver="public" homepage="https://www.scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-sbt-test-adapter/1.13.0/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3289" time="90" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-sbt-test-adapter_2.12/ivy-1.13.0.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-sbt-test-adapter_2.12/ivy-1.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.12/1.13.0/scalajs-sbt-test-adapter_2.12-1.13.0.pom"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="default, compile, runtime, master" rev="1.13.0" rev-constraint-default="1.13.0" rev-constraint-dynamic="1.13.0" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="scalajs-sbt-test-adapter_2.12" type="jar" ext="jar" status="successful" details="" size="163211" time="272" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-sbt-test-adapter_2.12/jars/scalajs-sbt-test-adapter_2.12-1.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.12/1.13.0/scalajs-sbt-test-adapter_2.12-1.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.jimfs" name="jimfs">
+			<revision name="1.1" status="release" pubdate="20160212171322" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="4147" time="75" location="/Users/ted/.ivy2/cache/com.google.jimfs/jimfs/ivy-1.1.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/com.google.jimfs/jimfs/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/jimfs/jimfs/1.1/jimfs-1.1.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-env-nodejs_2.12" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.4.0"/>
+				<artifacts>
+					<artifact name="jimfs" type="bundle" ext="jar" status="successful" details="" size="206691" time="662" location="/Users/ted/.ivy2/cache/com.google.jimfs/jimfs/bundles/jimfs-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="18.0" status="release" pubdate="20140825144834" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5666" time="77" location="/Users/ted/.ivy2/cache/com.google.guava/guava/ivy-18.0.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/com.google.guava/guava/ivy-18.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom"/>
+				<caller organisation="com.google.jimfs" name="jimfs" conf="compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="successful" details="" size="2256213" time="682" location="/Users/ted/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-js-envs_2.12">
+			<revision name="1.4.0" status="release" pubdate="20220828101910" resolver="public" artresolver="public" homepage="https://github.com/scala-js/scala-js-js-envs" extra-info.apiURL="https://javadoc.io/doc/org.scala-js/scalajs-js-envs_2.12/1.4.0/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2576" time="87" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-js-envs_2.12/ivy-1.4.0.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-js-envs_2.12/ivy-1.4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.12/1.4.0/scalajs-js-envs_2.12-1.4.0.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-env-nodejs_2.12" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.4.0"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="default, compile, runtime, master" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.13.0"/>
+				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.12" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="scalajs-js-envs_2.12" type="jar" ext="jar" status="successful" details="" size="46086" time="182" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-js-envs_2.12/jars/scalajs-js-envs_2.12-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.12/1.4.0/scalajs-js-envs_2.12-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20150507162859" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2584" time="0" location="/Users/ted/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="file:////Users/ted/.sbt/preloaded/org.scala-sbt/test-interface/1.0/ivys/ivy.xml"/>
+				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.12" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="14755" time="0" location="/Users/ted/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar">
+						<origin-location is-local="false" location="file:////Users/ted/.sbt/preloaded/org.scala-sbt/test-interface/1.0/jars/test-interface.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-linker-interface_2.12">
+			<revision name="1.13.0" status="release" pubdate="20230125045439" resolver="public" artresolver="public" homepage="https://www.scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-linker-interface/1.13.0/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="3091" time="80" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-linker-interface_2.12/ivy-1.13.0.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-linker-interface_2.12/ivy-1.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-linker-interface_2.12/1.13.0/scalajs-linker-interface_2.12-1.13.0.pom"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="default, compile, runtime, master" rev="1.13.0" rev-constraint-default="1.13.0" rev-constraint-dynamic="1.13.0" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="scalajs-linker-interface_2.12" type="jar" ext="jar" status="successful" details="" size="169010" time="178" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-linker-interface_2.12/jars/scalajs-linker-interface_2.12-1.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-linker-interface_2.12/1.13.0/scalajs-linker-interface_2.12-1.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-logging_2.12">
+			<revision name="1.1.1" status="release" pubdate="20200614115154" resolver="public" artresolver="public" homepage="https://github.com/scala-js/scala-js-logging" extra-info.apiURL="https://javadoc.io/doc/org.scala-js/scalajs-logging_2.12/1.1.1/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2125" time="83" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-logging_2.12/ivy-1.1.1.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-logging_2.12/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.12/1.1.1/scalajs-logging_2.12-1.1.1.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-js-envs_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.4.0"/>
+				<caller organisation="org.scala-js" name="scalajs-linker-interface_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="scalajs-logging_2.12" type="jar" ext="jar" status="successful" details="" size="17303" time="284" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-logging_2.12/jars/scalajs-logging_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.12/1.1.1/scalajs-logging_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-ir_2.12">
+			<revision name="1.13.0" status="release" pubdate="20230125045430" resolver="public" artresolver="public" homepage="https://www.scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-ir/1.13.0/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="2435" time="95" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-ir_2.12/ivy-1.13.0.xml" searched="true" original-local-location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-ir_2.12/ivy-1.13.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.12/1.13.0/scalajs-ir_2.12-1.13.0.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-linker-interface_2.12" conf="compile, runtime" rev="1.13.0" rev-constraint-default="1.13.0" rev-constraint-dynamic="1.13.0" callerrev="1.13.0"/>
+				<artifacts>
+					<artifact name="scalajs-ir_2.12" type="jar" ext="jar" status="successful" details="" size="645204" time="688" location="/Users/ted/.ivy2/cache/org.scala-js/scalajs-ir_2.12/jars/scalajs-ir_2.12-1.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.12/1.13.0/scalajs-ir_2.12-1.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

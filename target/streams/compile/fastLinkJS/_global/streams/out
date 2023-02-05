@@ -1,0 +1,22 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/ted/lilcafe/target/scala-2.13/lil-cafe-fastopt[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 7903 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 861 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 23972 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: false[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 3203 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 2 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 490 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 4212 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 1991 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 280 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 2882 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 90 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 22 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 139 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 344 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 1982 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 189 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 43 -- invalidated: 2[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 104 -- invalidated: 3[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: 3456 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: Write result: 16627 us[0m
